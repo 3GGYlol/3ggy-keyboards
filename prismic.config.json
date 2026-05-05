@@ -1,0 +1,9 @@
+{
+  "repositoryName": "eggy-keyboard",
+  "routes": [
+    {
+      "type": "eggy_keyboard",
+      "path": "/eggy-keyboard"
+    }
+  ]
+}
