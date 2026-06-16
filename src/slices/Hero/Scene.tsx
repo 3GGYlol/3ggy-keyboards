@@ -42,12 +42,12 @@ export function Scene() {
                 <Keycap position={[0, 1, 4.2]} rotation={[2, 2, 3]} texture={6} />
                 <Keycap position={[-0.7, 0.6, 3.0]} rotation={[1, 4, 0]} texture={7} />
                 <Keycap position={[-0.77, 0.1, 4.5]} rotation={[3, 2, 3]} texture={8} />
-                <Keycap position={[2, 0, 4.2]} rotation={[0, 0, 3]} texture={7} />
+                <Keycap position={[2, 0, 4.2]} rotation={[0, 0, 3]} texture={8} />
             </group>
             </group>
             
             <Environment files={["/hdr/blue-studio.hdr"]}
-            environmentIntensity={0.1} />
+            environmentIntensity={0.2} />
 
             <directionalLight position={[-2, 1.5, 3]}
             intensity={1.5}
