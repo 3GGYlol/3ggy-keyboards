@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"value": "mental",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "North"
+						}
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "evidence",
+				"type": "Text"
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Exercitation nisi adipisicing sunt veniam pariatur enim sunt sit labore magna commodo aliquip aliquip. Tempor veniam sit non deserunt adipisicing occaecat velit officia sunt magna ipsum non commodo. Eu consectetur nisi ipsum ut ut nisi aliquip."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
