@@ -14,7 +14,7 @@ import { Canvas } from "@react-three/fiber";
 import { SOUND_MAP, Switch } from "@/components/Switch";
 import { Stage } from "@react-three/drei";
 import gsap from "gsap";
-//import { LuVolume2 } from "react-icons/lu";
+import { LuVolume2 } from "react-icons/lu";
 
 /**
  * Props for `SwitchPlayground`.
@@ -95,7 +95,7 @@ const SharedCanvas = ({ color }: SharedCanvasProps) => {
         onClick={handleSound}
         className="font-bold-slanted absolute bottom-0 left-0 z-10 flex items-center gap-3 p-6 text-4xl text-white uppercase focus:ring-2 focus:ring-white focus:outline-none"
       >
-        
+        {name} <LuVolume2 />
       </button>
       {/* Canvas */}
       <Canvas camera={{ position: [1.5, 2, 0], fov: 7 }}>
