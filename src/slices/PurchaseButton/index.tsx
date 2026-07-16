@@ -10,7 +10,7 @@ import {
 import { Bounded } from "@/components/Bounded";
 import { FadeIn } from "@/components/FadeIn";
 import clsx from "clsx";
-//import { LuChevronRight, LuLoader } from "react-icons/lu";
+import { LuChevronRight, LuLoader } from "react-icons/lu";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 //import { checkout } from "@/checkout";
@@ -108,7 +108,7 @@ const PurchaseButton: FC<PurchaseButtonProps> = ({ slice }) => {
           onClick={handlePurchaseClick}
           disabled={isPressed}
           className={clsx(
-            "group relative w-full overflow-hidden rounded-full border-8 border-gray-900 bg-linear-to-r/oklch from-sky-300 to-sky-600 px-8 py-6 ease-out focus:ring-[24px] focus:ring-sky-500/50 focus:outline-none motion-safe:transition-all motion-safe:duration-300 md:border-[12px] md:px-20 md:py-16",
+            "group relative w-full overflow-hidden rounded-full border-8 border-gray-900 bg-linear-to-r/oklch from-sky-300 to-sky-600 px-8 py-6 ease-outfocus:ring-[24px] focus:ring-sky-500/50 focus:outline-none motion-safe:transition-all motion-safe:duration-300md:border-[12px] md:px-20 md:py-16",
             "hover:scale-105 hover:shadow-2xl hover:shadow-sky-500/40",
             "active:scale-95",
             isPressed
@@ -136,9 +136,9 @@ const PurchaseButton: FC<PurchaseButtonProps> = ({ slice }) => {
 
             {!isPressed && (
               <div className="hidden group-hover:translate-x-2 group-hover:scale-125 motion-safe:transition-all motion-safe:duration-300 md:block">
-                /**
-                *LuChevronRight className="size-12 text-gray-900 md:size-16" /
-                */
+                
+                <LuChevronRight className="size-12 text-gray-900 md:size-16" />
+                
               </div>
             )}
           </div>
