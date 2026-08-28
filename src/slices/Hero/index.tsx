@@ -102,6 +102,7 @@ const Hero: FC<HeroProps> = ({ slice }) => {
     >
       <div className="hero-scene pointer-events-none sticky top-0 h-dvh w-full">
         <Canvas shadows="soft">
+          
           <Scene />
         </Canvas>
       </div>
